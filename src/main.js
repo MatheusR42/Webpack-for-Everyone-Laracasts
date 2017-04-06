@@ -1,9 +1,9 @@
-require('./main.scss');
+var notify = require('./Notifications.js');
 
 class Form{
 
 	constructor(){
-		alert('ES2015');
+		notify('Is empty');
 	}
 }
 
