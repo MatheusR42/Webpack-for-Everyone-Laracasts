@@ -1,3 +1,5 @@
+require('./main.scss');
+
 class Form{
 
 	constructor(){
