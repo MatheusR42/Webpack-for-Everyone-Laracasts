@@ -30,6 +30,13 @@ module.exports = {
 			{
 				test:/\.js$/,
 				use: 'babel-loader'
+			},
+			{
+				test: /\.(png|jpe?g|gif|svg|woff|eot|tff|woff2)$/,
+				loader: 'file-loader',
+				options:{
+					name: 'images/[name].[hash].[ext]'
+				}
 			}
 		]
 	},
