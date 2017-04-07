@@ -1,5 +1,7 @@
 var notify = require('./Notifications.js');
 
+var $ = require('jquery');
+
 class Form{
 
 	constructor(){
